@@ -3,6 +3,7 @@ document.getElementById('btnClick').addEventListener('click', function() {
 });
 
 //este es un metodo, suscribete a la tecnologia avanzada
+//cambio en hotfix
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var name = document.getElementById('name').value;
